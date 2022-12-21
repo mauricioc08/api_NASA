@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="./style.css">
   <title>Nasa API</title>
 </head>
-<body>
+<body onload="init()">
   <header>
     <h1>Universo incrível</h1>
   </header>
   <main>
     <h2 class="titulo"></h2>
+    <span class="loaderAtivo" id="loading"></span>
     <img src="" alt="">
+    <iframe src="" title="YouTube video player" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; " allowfullscreen></iframe>
     <p class="paragrafo1">Foto tirada em : <span class="data"></span> | copyright : <span class="autorImg"></span></p>
     <button class="btn">Nova Imagem</button>
     <p class="paragrafo2"></p>
@@ -27,7 +29,6 @@
   </footer>
   
 
-
- <script src="./script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
